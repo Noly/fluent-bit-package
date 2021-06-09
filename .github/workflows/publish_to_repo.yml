@@ -3,7 +3,7 @@ name: Publish to testing bucket
 on:
   push:
     branches:
-      - '*fb_as_pkg_dependency*'
+      - 'pkg_log_fwd/publish_to_test_bucket'
       - '!master'
 env:
   TAG: 1.7.4
