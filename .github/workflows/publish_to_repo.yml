@@ -9,7 +9,7 @@ env:
   TAG: 1.7.4
   GPG_PASSPHRASE: ${{ secrets.OHAI_GPG_PASSPHRASE }}
   GPG_PRIVATE_KEY_BASE64: ${{ secrets.OHAI_GPG_PRIVATE_KEY_BASE64 }} # base64 encoded
-  AWS_S3_BUCKET_NAME: "nr-downloads-logging-testing"
+  AWS_S3_BUCKET_NAME: "nr-downloads-ohai-staging"
   AWS_S3_LOCK_BUCKET_NAME: "logging-ci-lock-testing"
   AWS_REGION: "us-east-1"
 
