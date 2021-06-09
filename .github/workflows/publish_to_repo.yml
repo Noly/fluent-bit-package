@@ -1,9 +1,9 @@
-name: Logging Test Linux pipeline
+name: Publish to testing bucket
 
 on:
   push:
     branches:
-      - 'pkg_log_fwd/fb_as_pkg_dependency'
+      - '*fb_as_pkg_dependency*'
       - '!master'
 env:
   TAG: 1.7.4
